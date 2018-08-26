@@ -1,0 +1,87 @@
+
+
+
+class MyClass{
+private int index;
+private String name;
+
+Myclass(int index,String name){
+    this.index = index;
+    this.name = name;
+    }
+}
+
+class MyClass(index:int,name:String)
+
+Types
+
+1 + 2 
+
+val hex2 = 0x00FF
+
+val sum = (1).+(3)
+val sum = 1+2L // operator overloading
+
+val a = 'A'
+val c = '\101'
+
+
+
+val bool = true
+
+val s = "Hello, world!"
+s indexOf 'o'
+s indexOf ('o', 5)
+
+s.indexOf('o') opeators are methods
+
+
+
+
+
+
+val str =
+
+boolean nameHasUpperCase = false;
+
+for (int i =0;i < name.lenght();i++){
+    if (Character.isUpperCase(name.CharAt(i))){
+        nameHasUpperCase = true
+        break;
+    }
+}
+
+//Readable and expressive language
+
+val nameHasUpperCase = name.exist(_.isUpper) 
+
+val filename = "hello.scala"
+
+import scala.io.Source
+
+for(line <- Source.fromFile(filename).getLines()) {println(line)}
+
+
+scala scripts:
+world.scala
+
+
+Arrays:
+
+val greetStrings = new Array[String](3)
+  greetStrings(0) = "Hello"
+  greetStrings(1) = ", "
+  greetStrings(2) = "world!\n"
+  for (i <- 0 to 2)
+    print(greetStrings(i))
+    
+val greetStrings: Array[String] = new Array[String](3)
+
+Functions
+
+def max2(x: Int, y: Int) = if (x > y) x else y -- if the function contain only oneline you can leave the 
+
+def greet() = println("Hello world!")
+
+
+
